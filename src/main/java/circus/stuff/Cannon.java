@@ -1,4 +1,8 @@
-public class Cannon extends Equipment {
+package circus.stuff;
+
+import circus.Asset;
+
+public class Cannon extends Equipment implements Asset {
 
     public Cannon(int purchasePrice) {
         super(purchasePrice);
